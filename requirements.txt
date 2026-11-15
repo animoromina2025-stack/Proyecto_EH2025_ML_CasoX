@@ -1,0 +1,15 @@
+
+duckdb
+pyreadstat
+pandas
+numpy
+scikit-learn
+xgboost
+plotly
+folium
+branca
+ydata-profiling
+shap
+matplotlib
+seaborn
+scipy
