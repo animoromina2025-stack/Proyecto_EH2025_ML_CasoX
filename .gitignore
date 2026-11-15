@@ -1,0 +1,34 @@
+
+# =====================================
+# PROYECTO EH2025 - ARCHIVOS PRIVADOS
+# =====================================
+
+# Microdatos originales de la encuesta
+*.sav
+*.dta
+*.rar
+*.zip
+
+# Bases de datos locales
+*.duckdb
+*.duckdb.wal
+*.db
+
+# Datos individuales procesados
+data/raw/*
+!data/raw/README.md
+
+data/processed/*
+!data/processed/README.md
+
+# Entornos y archivos temporales
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
